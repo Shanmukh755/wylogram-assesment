@@ -1,0 +1,17 @@
+.profile-item-cont{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+    flex-shrink: 0;
+}
+.profile-item-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.profile-item-name{
+    color: #ffffff;
+    font-size: 0.7rem;
+}

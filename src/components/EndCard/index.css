@@ -1,0 +1,17 @@
+.end-cont{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+}
+.end-des{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.icons{
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0rem 1rem;
+}

@@ -1,0 +1,110 @@
+.create-body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+    min-height: 90vh;
+    width: 100%;
+}
+.create-head{
+    background: linear-gradient(to right, rgb(95, 164, 207), rgb(59, 150, 207), rgb(116, 59, 207), rgb(190, 59, 207), rgb(207, 98, 59), rgb(202, 207, 59));
+    font-size: 1.4rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+.create-form-container{
+    border: 1px solid gray;
+    padding: 1.6rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.box{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0.2rem 1rem;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 1rem;
+    height: 35px;
+    outline: none;
+    font-size: 0.9rem;
+}
+.box1{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0.2rem 1rem;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 1rem;
+    height: 35px;
+    outline: none;
+    font-size: 0.8rem;
+}
+textarea{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 0.3rem 1rem;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.upload-btn{
+    height: 30px;
+    border-width: 0px;
+    background-color: #2765D8;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+}
+.app-mini-logo{
+    background: linear-gradient(to right, rgb(95, 164, 207), rgb(59, 150, 207), rgb(116, 59, 207), rgb(190, 59, 207), rgb(207, 98, 59), rgb(202, 207, 59));
+    font-size: 1.2rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+@media (max-width: 568px){
+    .create-head{
+        text-align: center;
+    }
+    .create-form-container{
+        width: 100%;
+    }
+    .app-mini-logo{
+        margin-top: 1rem;
+    }
+    .create-body{
+        justify-content: center;
+    }
+    .box{
+        height: 26px;
+    }
+    .box1{
+        height: 26px;
+        font-size: 0.6rem;
+    }
+}
+@media (min-width: 569px) and (max-width: 768px){
+    .create-form-container{
+        width: 70%;
+    }
+    .app-mini-logo{
+        margin-top: 1rem;
+    }
+    .create-body{
+        justify-content: center;
+    }
+}

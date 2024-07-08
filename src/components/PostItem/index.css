@@ -1,0 +1,102 @@
+.post-item-container{
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 0.4rem 0rem 0.4rem 0rem;
+}
+.post-user-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.post-user-info{
+    display: flex;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+.profile-pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.profile-name{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.post-pic{
+    width: 100%;
+    margin-top: 0.6rem;
+}
+.likes-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.6rem 0.6rem 0rem 1rem;
+}
+.like-btn{
+    background-color: transparent;
+    border-width: 0px;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin-right: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+.icon{
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+.icon-red{
+    color: red;
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-top: 0;
+}
+.comment-cont{
+    padding: 0.4rem 1rem;
+}
+.comment{
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.x{
+    border-width: 0px;
+    background-color: transparent;
+}
+.model-item{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: black;
+    padding: 0.2rem 0.6rem;
+}
+@media (max-width: 567px){
+    .post-item-container{
+        border-width: 0px;
+    }
+    .profile-name{
+        font-size: 0.8rem;
+    }
+    .comment{
+        font-size: 0.8rem;
+    }
+    .icon{
+        font-size: 16px;
+        margin-right: 0.5rem;
+    }
+    .icon-red{
+        font-size: 16px;
+        margin-right: 0.5rem;
+    }
+    .like-btn{
+        margin-right: 0.5rem;
+    }
+}
